@@ -17,9 +17,9 @@ https://github.com/user-attachments/assets/f7272d55-ad92-4c96-890b-03e529e0490b
 
 
 ### 3D再構築
-|カメラ|360度画像|深度推定|フィルタ|結果|
-|---|---|---|---|---|
-|![image](https://github.com/user-attachments/assets/6a799a6c-339e-4bc4-a462-c61c24263eff)|![image](https://github.com/user-attachments/assets/7b93d271-94ac-419d-baac-a7c5d903ceae)|![image](https://github.com/user-attachments/assets/5b9e0083-d374-4763-aa4e-45d7dd5d2522)|![image](https://github.com/user-attachments/assets/54389e90-a957-4b8c-8b94-a97dec9cf1a8)|![image](https://github.com/user-attachments/assets/39685b15-62c1-4f3e-ad00-2d2162cd2533)
+|カメラ|360度画像|フィルタ済み深度推定|結果|
+|---|---|---|---|
+|![image](https://github.com/user-attachments/assets/6a799a6c-339e-4bc4-a462-c61c24263eff)|![image](https://github.com/user-attachments/assets/7b93d271-94ac-419d-baac-a7c5d903ceae)|![image](https://github.com/user-attachments/assets/54389e90-a957-4b8c-8b94-a97dec9cf1a8)|![image](https://github.com/user-attachments/assets/39685b15-62c1-4f3e-ad00-2d2162cd2533)
 
 下360度カメラの画像から、深度を推定、一定距離以内の各ピクセルをキューブ化し、３Dシーンを再構築
 
