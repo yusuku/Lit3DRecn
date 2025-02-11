@@ -4,16 +4,19 @@ using UnityEngine;
 
 
 //estimation()　は半径１
-public class CPURunEstimation : MonoBehaviour
+public class Lit : MonoBehaviour
 {
     public ComputeShader cs;
     public Texture LDRtex;
     public Transform parent;
     
-    LightEstimation LightsEnv;
+    LightEstimationE LightsEnv;
+
+    public ComputeShader DebugLit;
+    public Material DebugLitMaterial;
     void Start()
     {
-        LightsEnv=new LightEstimation(cs,LDRtex,parent);
+        LightsEnv=new LightEstimationE(cs, DebugLit, DebugLitMaterial, LDRtex,parent);
     }
     // Update is called once per frame
     void Update()
@@ -21,7 +24,7 @@ public class CPURunEstimation : MonoBehaviour
         LightsEnv.ReconstructLights();
     }   
 }
-public class LightEstimation
+public class LightEstimationE
 {
     ComputeShader cs;
     Texture LDRtex;
@@ -43,10 +46,13 @@ public class LightEstimation
     int labelsID = Shader.PropertyToID("labels");
     RenderTexture DebugLightTex;
     int groupX, groupY;
+    Material Debugmat;
 
-    public LightEstimation(ComputeShader cs, Texture LDRtex, Transform parent)
+    public LightEstimationE(ComputeShader cs,ComputeShader Debuglit,Material Debugmat, Texture LDRtex, Transform parent)
     {
         this.cs = cs;
+        this.DebugLight_cs = Debuglit;
+        this.Debugmat = Debugmat;
         this.LDRtex = LDRtex;
         this.width = LDRtex.width; this.height = LDRtex.height;
         this.parent = parent;
@@ -60,15 +66,18 @@ public class LightEstimation
         DebugLightTex.Create();
         this.groupX = Mathf.CeilToInt(width / 8f);
         this.groupY = Mathf.CeilToInt(height / 8f);
+        Debugmat.mainTexture = DebugLightTex;
     }
 
     public void DebugLights()
     {
         ComputeBuffer LabelBuffer = new ComputeBuffer(width * height, Marshal.SizeOf<int>());
         LabelBuffer.SetData(labels);
+        DebugLight_cs.SetInt("width", this.width);
         DebugLight_cs.SetBuffer(0, labelsID, LabelBuffer);
         DebugLight_cs.SetTexture(0, DebugTexId, DebugLightTex);
         DebugLight_cs.Dispatch(0, groupX, groupY,1);
+       
 
     }
 
@@ -78,6 +87,7 @@ public class LightEstimation
         InverseToneMapping();
         (Luminances, Yt) = SetThresholdingLuminances();
         (labels, lightcount) = BreathfirstSearch(Luminances, Yt);
+        DebugLights();
         (Irradiance, Els) = IrradianceSetting(labels, lightcount, HDRtex, Yt, Luminances);
         Positions = LightPosition(Irradiance, lightcount, labels, Els);
 
