@@ -1,5 +1,5 @@
 # Lit3DRecn
- 
+ Scene> Lit3D シーンを参照してください
 
 ## 検証動画
 
