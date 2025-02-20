@@ -3,7 +3,16 @@
 実行方法
 
  Scene> Lit3D シーンを実行
-
+ 
+ Midas モデル　
+ 
+ Dpt_swin2_tiny_256.sentis 
+ 
+ Dpt_swin2_base_384.sentis 
+ 
+ Dpt_swin2_large_384.sentis のダウンロードが必要です
+ 
+ https://huggingface.co/julienkay/sentis-MiDaS/tree/main/sentis
 ## 検証動画
 
 下のカメラから３Dシーンを再構築し、上のカメラで光源位置を推定し、ライティングをリアルタイムにしています。
