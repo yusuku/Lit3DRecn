@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/f7272d55-ad92-4c96-890b-03e529e0490b
 下360度カメラの画像から、深度を推定、一定距離以内の各ピクセルをキューブ化し、３Dシーンを再構築
 
 
-360度画像による結果
+### 360度画像による結果
 
 https://github.com/user-attachments/assets/5059c4f2-1aa0-49f2-9144-3d6c23f7c8be
 
