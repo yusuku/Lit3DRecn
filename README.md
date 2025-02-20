@@ -1,4 +1,7 @@
 # Lit3DRecn
+
+実行方法
+
  Scene> Lit3D シーンを実行
 
 ## 検証動画
