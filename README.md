@@ -12,7 +12,7 @@
  
  Dpt_swin2_large_384.sentis のダウンロードが必要です
  
- https://huggingface.co/julienkay/sentis-MiDaS/tree/main/sentis
+ 　ダウンロードページ　　https://huggingface.co/julienkay/sentis-MiDaS/tree/main/sentis
 ## 検証動画
 
 下のカメラから３Dシーンを再構築し、上のカメラで光源位置を推定し、ライティングをリアルタイムにしています。
