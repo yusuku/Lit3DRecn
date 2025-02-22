@@ -37,18 +37,8 @@ Assets/DebugLit/LitOnly.unity
 
    └── /DebugLit/
    
-      ├── LitOnly.unity Unityシーン
+      └── Lit.cs 光源推定ソースコード      
       
-      ├── Lit.cs 光源推定ソースコード
-      
-      ├── LDR2HDR.compute  
-      
-      ├── DebugLit.compute
-      
-      ├── LitMask.mat
-      
-      └── Sky.mat      
-
 ##### 実行結果
 ![image](https://github.com/user-attachments/assets/2510d470-7598-4b9a-953a-56592713eaf2)
 
