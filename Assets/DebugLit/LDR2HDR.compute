@@ -1,5 +1,4 @@
 #pragma kernel LDR2HDR
-#pragma kernel DebugLDR2HDR
 int width, height;
 
 float lr, lg, lb;

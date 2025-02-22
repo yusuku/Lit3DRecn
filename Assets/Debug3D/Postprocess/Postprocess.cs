@@ -40,8 +40,9 @@ public class Postprocess : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Graphics.Blit(Depth, PosprocessTex, Differenmat);
+        
         Graphics.Blit(Depth, SharpenTex, Sharpenmat);
+        Graphics.Blit(SharpenTex, PosprocessTex, Differenmat);
         Cul_Delta.Dispatch(0, groupX, groupY, 1);
     }
 }

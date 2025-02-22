@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.Sentis;
 using Unity.VisualScripting;
 using UnityEngine;
+using static RunAI;
 using static Unity.Sentis.Model;
 using static Unity.VisualScripting.Member;
 
@@ -16,15 +17,15 @@ public class RunAI : MonoBehaviour
     public RenderTexture outputTexture;
     Worker m_engineEstimation;
 
-    public enum Modelname {dpt_swin2_base_384,dpt_swin2_large_384, dpt_swin2_tiny_256}
+    public enum Modelname {dpt_swin2_large_384}
 
     public Modelname modelname;
-     string[] modelnames = { "dpt_swin2_base_384", "dpt_swin2_large_384", "dpt_swin2_tiny_256" };
+     string[] modelnames = {  "dpt_swin2_large_384"};
     
     void Awake()
     {
      
-        Model model = ModelLoader.Load(Application.streamingAssetsPath +"/"+ modelnames[(int)modelname]+".sentis");
+        Model model = ModelLoader.Load(Application.streamingAssetsPath +"/"+ "dpt_swin2_large_384" + ".sentis");
 
         // Post process
         var graph = new FunctionalGraph();
