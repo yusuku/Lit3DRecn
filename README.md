@@ -32,12 +32,7 @@ https://github.com/user-attachments/assets/f7272d55-ad92-4c96-890b-03e529e0490b
 Assets/DebugLit/LitOnly.unity
 
 #### 関連ソースコード
-
-├── Assets/    
-
-   └── /DebugLit/
-   
-      └── Lit.cs 光源推定ソースコード      
+Assets/DebugLit/Lit.cs 光源推定ソースコード      
       
 ##### 実行結果
 ![image](https://github.com/user-attachments/assets/2510d470-7598-4b9a-953a-56592713eaf2)
