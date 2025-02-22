@@ -8,7 +8,7 @@ Unity version 6000.0.28f1
  
  Midas モデル　
 
- Dpt_swin2_large_384.sentis のダウンロードが必要です
+ Dpt_swin2_large_384.sentis のダウンロードが必要です。　Assets/StreamingAssetsにダウンロードファイルを入れてください。
  
  　ダウンロードページ　　https://huggingface.co/julienkay/sentis-MiDaS/tree/main/sentis
 ## 検証動画
