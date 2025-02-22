@@ -26,19 +26,15 @@ https://github.com/user-attachments/assets/f7272d55-ad92-4c96-890b-03e529e0490b
 ## 仕組み
 
 ### 光源推定
-ソースコード　
-
-Assets/LightEnvReconstruction/CPURunEstimation.cs
-
-Assets/LightEnvReconstruction/CPURunEstimation.compute
-
-
+#### 処理の流れ
 |カメラ|360度画像|光源マスク|結果|
 |---|---|---|---|
 |![image](https://github.com/user-attachments/assets/18f011ca-5914-447e-83a2-cda49ebdcc4e)|![image](https://github.com/user-attachments/assets/7b93d271-94ac-419d-baac-a7c5d903ceae)|![スクリーンショット 2025-02-11 220551](https://github.com/user-attachments/assets/69e28ed3-e252-4e20-b0f2-33aa880ad82b)|![スクリーンショット 2025-02-11 223140](https://github.com/user-attachments/assets/cc258f9f-cd30-4a14-850f-0a21472e105f)
 
 上360度カメラの画像から、ピクセルの明るさで光源を判断し光源の方向を推定、Unity Directional Lightに適応
 
+#### ソースコード
+360度画像　Assets/LightEnvReconstruction/
 
 
 ### 3D再構築
