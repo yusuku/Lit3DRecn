@@ -7,11 +7,7 @@ Unity version 6000.0.28f1
  Scene> Lit3D シーンを実行
  
  Midas モデル　
- 
- Dpt_swin2_tiny_256.sentis 
- 
- Dpt_swin2_base_384.sentis 
- 
+
  Dpt_swin2_large_384.sentis のダウンロードが必要です
  
  　ダウンロードページ　　https://huggingface.co/julienkay/sentis-MiDaS/tree/main/sentis
