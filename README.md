@@ -29,6 +29,16 @@ https://github.com/user-attachments/assets/f7272d55-ad92-4c96-890b-03e529e0490b
 #### テストシーン
 Assets/DebugLit/LitOnly.unity
 
+#### 関連ソースコード
+├── Assets/        
+   └── /DebugLit/
+      ├── LitOnly.unity Unityシーン
+      ├── Lit.cs 光源推定ソースコード
+      ├── LDR2HDR.compute  
+      ├── DebugLit.compute
+      ├── LitMask.mat
+      └── Sky.mat      
+
 ##### 実行結果
 ![image](https://github.com/user-attachments/assets/2510d470-7598-4b9a-953a-56592713eaf2)
 
@@ -41,8 +51,7 @@ Assets/DebugLit/LitOnly.unity
 
 上360度カメラの画像から、ピクセルの明るさで光源を判断し光源の方向を推定、Unity Directional Lightに適応
 
-#### ソースコード
-360度画像　Assets/LightEnvReconstruction/
+
 
 
 ### 3D再構築
