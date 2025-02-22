@@ -5,10 +5,9 @@ Unity version 6000.0.28f1
 実行方法
 
  Scene> Lit3D シーンを実行
- 
- Midas モデル　
 
- Dpt_swin2_large_384.sentis のダウンロードが必要です。　Assets/StreamingAssetsにダウンロードファイルを入れてください。
+注
+MIDAS　AI モデルを使用するため Dpt_swin2_large_384.sentis のダウンロードが必要です。　Assets/StreamingAssetsにダウンロードファイルを入れてください。
  
  　ダウンロードページ　　https://huggingface.co/julienkay/sentis-MiDaS/tree/main/sentis
 ## 検証動画
