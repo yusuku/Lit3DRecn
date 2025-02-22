@@ -58,9 +58,16 @@ Assets/DebugLit/LitOnly.unity
 ├── Assets/    
 
    └── /Debug3D/ 
+     ├── DepthMeshIndirect.cs : GPUInstancingで深度画像から3Dモデルを再構築
+     ├── DepthMeshIndirect.compute : GPUInstancing
+     ├── RunAI.cs : 深度推定AIモデルで画像の深度を推定する
+     ├── Tex2Cube.cs : 深度推定の後処理結果をDepthMeshIndirectで実行する
+     └── /Postprocess/ 
+        └─── Postprocess.cs　: 深度推定画像の後処理
 
 ##### 実行結果
-![image](https://github.com/user-attachments/assets/e3d70f51-bd0b-4d8d-ba41-2c0e10fb2cea)
+![image](https://github.com/user-attachments/assets/629de104-6941-4175-8427-d54bcfb954fd)
+
 
 |カメラ|360度画像|フィルタ済み深度推定|結果|
 |---|---|---|---|
