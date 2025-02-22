@@ -1,5 +1,7 @@
 # Lit3DRecn
 
+Unity version 6000.0.28f1
+
 実行方法
 
  Scene> Lit3D シーンを実行
@@ -30,13 +32,21 @@ https://github.com/user-attachments/assets/f7272d55-ad92-4c96-890b-03e529e0490b
 Assets/DebugLit/LitOnly.unity
 
 #### 関連ソースコード
-├── Assets/        
+
+├── Assets/    
+
    └── /DebugLit/
+   
       ├── LitOnly.unity Unityシーン
+      
       ├── Lit.cs 光源推定ソースコード
+      
       ├── LDR2HDR.compute  
+      
       ├── DebugLit.compute
+      
       ├── LitMask.mat
+      
       └── Sky.mat      
 
 ##### 実行結果
