@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/5059c4f2-1aa0-49f2-9144-3d6c23f7c8be
 |![image](https://github.com/user-attachments/assets/18f011ca-5914-447e-83a2-cda49ebdcc4e)|![image](https://github.com/user-attachments/assets/7b93d271-94ac-419d-baac-a7c5d903ceae)|![スクリーンショット 2025-02-11 220551](https://github.com/user-attachments/assets/69e28ed3-e252-4e20-b0f2-33aa880ad82b)|![スクリーンショット 2025-02-11 223140](https://github.com/user-attachments/assets/cc258f9f-cd30-4a14-850f-0a21472e105f)
 
 
-　　上360度カメラの画像から、ピクセルの明るさで光源を判断し光源の方向を推定、Unity Directional Lightに適応
+　　上360度カメラの画像から、ピクセルの明るさで光源を判断し光源の方向を推定、Unity Directional Lightに適用
 
 
 
