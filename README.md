@@ -60,6 +60,14 @@ T. Rhee, L. Petikam, B. Allen and A. Chalmers, "MR360: Mixed Reality Rendering f
 
 ## 3D再構築
 
+深度推定AIモデル
+
+Midas
+Rene Ranftl, Katrin Lasinger, David Hafner, Konrad ´
+Schindler, and Vladlen Koltun. Towards robust monocular
+depth estimation: Mixing datasets for zero-shot cross-dataset
+transfer. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020
+
 #### テストシーン
 　　Assets/Debug3D/Debug3D.unity
 
