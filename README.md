@@ -51,11 +51,11 @@ T. Rhee, L. Petikam, B. Allen and A. Chalmers, "MR360: Mixed Reality Rendering f
 　　上360度カメラの画像から、ピクセルの明るさで光源を判断し光源の方向を推定、Unity Directional Lightに適用
 
 ###  アピールポイント
-![image](https://github.com/user-attachments/assets/8ae8f4e7-69d6-47ec-bec7-73ff72812a50)
-![image](https://github.com/user-attachments/assets/6e4ef982-b75e-431e-b6fd-b78e4efb7b58)
-
-
-
+![image](https://github.com/user-attachments/assets/2da7d9eb-4c8c-4804-b4ce-96f55c92fd87)
+![image](https://github.com/user-attachments/assets/dc598b24-31cf-405d-9de9-284b61e851e1)
+![image](https://github.com/user-attachments/assets/9db9d77c-41b7-4f79-b81a-1654000ad938)
+![image](https://github.com/user-attachments/assets/1c634b00-5cda-437e-b8ec-f039bc5a1bba)
+![image](https://github.com/user-attachments/assets/564180af-4e83-488a-a716-9c58b3efcce1)
 
 
 ## 3D再構築
@@ -100,6 +100,15 @@ transfer. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 
 　　下360度カメラの画像から、深度を推定、一定距離以内の各ピクセルをキューブ化し、３Dシーンを再構築
 
+###  アピールポイント
+![image](https://github.com/user-attachments/assets/61cf4500-42ad-40c7-9721-a018e1c33e40)
+![image](https://github.com/user-attachments/assets/e4581f11-6c30-450c-a8d0-8f2ee3ce1995)
+
+
+
+### 今後の課題
+![image](https://github.com/user-attachments/assets/90f31bb5-1dc6-4002-ab88-6f42b67c829e)
+![image](https://github.com/user-attachments/assets/bf6ad0cd-a759-4247-a244-46c4630dcb3e)
 
 
 
