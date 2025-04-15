@@ -28,7 +28,10 @@ https://github.com/user-attachments/assets/5059c4f2-1aa0-49f2-9144-3d6c23f7c8be
 
 ## 仕組み
 
-### 光源推定
+## 光源推定
+参照論文
+
+T. Rhee, L. Petikam, B. Allen and A. Chalmers, "MR360: Mixed Reality Rendering for 360° Panoramic Videos," in IEEE Transactions on Visualization and Computer Graphics, vol. 23, no. 4, pp. 1379-1388, April 2017
 #### テストシーン
 　　Assets/DebugLit/LitOnly.unity
 
@@ -47,10 +50,15 @@ https://github.com/user-attachments/assets/5059c4f2-1aa0-49f2-9144-3d6c23f7c8be
 
 　　上360度カメラの画像から、ピクセルの明るさで光源を判断し光源の方向を推定、Unity Directional Lightに適用
 
+###  アピールポイント
+![image](https://github.com/user-attachments/assets/8ae8f4e7-69d6-47ec-bec7-73ff72812a50)
+![image](https://github.com/user-attachments/assets/6e4ef982-b75e-431e-b6fd-b78e4efb7b58)
 
 
 
-### 3D再構築
+
+
+## 3D再構築
 
 #### テストシーン
 　　Assets/Debug3D/Debug3D.unity
@@ -83,6 +91,9 @@ https://github.com/user-attachments/assets/5059c4f2-1aa0-49f2-9144-3d6c23f7c8be
 |![image](https://github.com/user-attachments/assets/6a799a6c-339e-4bc4-a462-c61c24263eff)|![image](https://github.com/user-attachments/assets/7b93d271-94ac-419d-baac-a7c5d903ceae)|![image](https://github.com/user-attachments/assets/54389e90-a957-4b8c-8b94-a97dec9cf1a8)|![image](https://github.com/user-attachments/assets/39685b15-62c1-4f3e-ad00-2d2162cd2533)
 
 　　下360度カメラの画像から、深度を推定、一定距離以内の各ピクセルをキューブ化し、３Dシーンを再構築
+
+
+
 
 
 
