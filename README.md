@@ -5,6 +5,12 @@
 
 Unity version 6000.0.28f1
 
+空中像の例
+
+![image](https://github.com/user-attachments/assets/0a406f4a-6e26-43a6-9285-17f8ced805fc)
+
+
+
 ## 実行方法
 
  Scene> Lit3D シーンを実行
