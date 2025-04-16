@@ -25,7 +25,8 @@ MIDAS　AI モデルを使用するため Dpt_swin2_large_384.sentis のダウ�
 
 https://github.com/user-attachments/assets/f7272d55-ad92-4c96-890b-03e529e0490b
 
-![image](https://github.com/user-attachments/assets/f5448af6-632a-4ad5-8d40-4cb4dd836ab5)
+![image](https://github.com/user-attachments/assets/f11fd7ec-815b-4af4-ac20-6b1985e40270)
+
 
 
 ## 360度画像による結果
