@@ -64,7 +64,7 @@ T. Rhee, L. Petikam, B. Allen and A. Chalmers, "MR360: Mixed Reality Rendering f
 ![image](https://github.com/user-attachments/assets/564180af-4e83-488a-a716-9c58b3efcce1)
 
 
-## 3D再構築
+## 3Dシーン再構築
 
 深度推定AIモデル
 
